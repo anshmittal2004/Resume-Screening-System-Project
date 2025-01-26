@@ -49,7 +49,7 @@ python -m spacy download en_core_web_sm
 python app.py
 4.  Access the Application: Open your browser and navigate to http://127.0.0.1:5000.
 
-Usage
+## Usage
 Open the application in your browser.
 Upload a PDF resume using the upload form.
 View the calculated match score, matched keywords, and extracted skills.
@@ -58,23 +58,23 @@ Home Page
 A user-friendly form for uploading resumes.
 
 
-Result Page
+## Result Page
 Displays match score, matched keywords, and extracted skills.
 
 
-File Structure
+## File Structure
 app.py: Main application logic.
 templates/index.html: HTML template for the web interface.
 static/style.css: Custom CSS for styling the interface.
 
 
-Customization
+## Customization
 Modify the KEYWORDS array in app.py to update the list of desired skills/keywords.
 Customize the HTML and CSS in templates/index.html and static/style.css to change the interface.
 
 
-Future Enhancements
-Add support for other resume formats (e.g., DOCX).
-Implement user authentication for saving and viewing results.
-Enhance the scoring algorithm for better accuracy.
-Add a database to store resumes and results for future reference.
+## Future Enhancements
+1.Add support for other resume formats (e.g., DOCX).
+2.Implement user authentication for saving and viewing results.
+3.Enhance the scoring algorithm for better accuracy.
+4.Add a database to store resumes and results for future reference.
